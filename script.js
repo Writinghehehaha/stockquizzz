@@ -15,16 +15,16 @@ button.onclick = function () {
   let answer2 = input2.value;
   console.log(answer2);
 
-  if (answer1 < 5 && answer2 === "casual") {
+  if (answer1 < 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Upset Man!";
-  } else if (answer1 === 5 && answer2 === "casual") {
+  } else if (answer1 === 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Relaxed Man!";
-  } else if (answer1 > 5 && answer2 === "casual") {
+  } else if (answer1 > 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Happy Man!";
-  } else if (answer1 < 5 && answer2 === "formal") {
+  } else if (answer1 < 5 && answer2 === "formal" || answer2 === "Formal") {
     document.querySelector("p").innerHTML = "You're Overworked Man!";
-  } else if (answer1 === 5 && answer2 === "formal") {
+  } else if (answer1 === 5 && answer2 === "formal" || answer2 === "Formal") {
     document.querySelector("p").innerHTML = "You're Coffee Man!";
-  } else if (answer1 > 5 && answer2 === "formal")
+  } else if (answer1 > 5 && answer2 === "formal" || answer2 === "Formal")
     document.querySelector("p").innerHTML = "You're Joyous Man!";
 };
