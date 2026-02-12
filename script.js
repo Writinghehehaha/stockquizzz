@@ -22,12 +22,24 @@ button.addEventListener("click", function () {
     document.querySelector(".thinking").style.display = "none";
   } else if (answer1 === 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Relaxed Man!";
+    document.querySelector(".relaxed").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
   } else if (answer1 > 5 && answer2 === "casual" || answer2 === "Casual") {
     document.querySelector("p").innerHTML = "You're Happy Man!";
+    document.querySelector(".happy").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
   } else if (answer1 < 5 && answer2 === "formal" || answer2 === "Formal") {
     document.querySelector("p").innerHTML = "You're Overworked Man!";
+    document.querySelector(".upsetB").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
   } else if (answer1 === 5 && answer2 === "formal" || answer2 === "Formal") {
     document.querySelector("p").innerHTML = "You're Coffee Man!";
+    document.querySelector(".coffee").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
   } else if (answer1 > 5 && answer2 === "formal" || answer2 === "Formal")
     document.querySelector("p").innerHTML = "You're Joyous Man!";
-});
+    document.querySelector(".joy").style.display = "block";
+    document.querySelector(".thinking").style.display = "none";
+    });
+
+    
