@@ -36,10 +36,11 @@ button.addEventListener("click", function () {
     document.querySelector("p").innerHTML = "You're Coffee Man!";
     document.querySelector(".coffee").style.display = "block";
     document.querySelector(".thinking").style.display = "none";
-  } else if (answer1 > 5 && answer2 === "formal" || answer2 === "Formal")
+  } else if (answer1 > 5 && answer2 === "formal" || answer2 === "Formal"){
     document.querySelector("p").innerHTML = "You're Joyous Man!";
     document.querySelector(".joy").style.display = "block";
     document.querySelector(".thinking").style.display = "none";
-    });
+  }
+});
 
     

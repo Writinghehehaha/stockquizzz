@@ -55,15 +55,17 @@ h3 {
   font-size: 1.2rem;
   text-shadow: 2px 2px 1px black;
   word-spacing: 1px;
+  text-align: center;
 }
 button {
   background-color: #998896;
   border-radius: 12px;
   margin: 7px;
-  width: 25%;
+  width: 7rem;
   text-align: center;
   color: white;
   font-weight: bold;
+  font-size: 12px;
 }
 input {
   border: 2px;
